@@ -1,0 +1,11 @@
+#JSGF V1.0;
+ 
+/**
+ * JSGF Grammar
+ */
+ 
+grammar tcc;
+ 
+public <publicCommands> = <commands> <windowsApps> ;
+<commands> = open;
+<windowsApps> = word pad | files | windows media player | note pad | chrome | paint | internet | internet explorer;
