@@ -4,8 +4,3 @@
 .project
 .settings
 /build
-
-# Package Files #
-*.jar
-*.war
-*.ear
